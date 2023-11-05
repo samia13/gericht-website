@@ -10,6 +10,12 @@
   .container {
     margin: 0 auto;
   }
+  img {
+    max-width: 100%;
+  }
+  button {
+    display: inline-block;
+  }
   .reservationForm input {
     outline: 0;
     background-color: transparent;
