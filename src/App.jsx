@@ -19,6 +19,7 @@ function App() {
         <Reservation />
         <FoodGallery />
         <Awards />
+        <ChefWord />
       </main>
       <Footer />
     </>
