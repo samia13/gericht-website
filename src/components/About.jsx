@@ -6,7 +6,7 @@ const About = () => {
     <div className='bg-[url("images/about-bg.jpg")] bg-no-repeat bg-cover px-7 py-20'>
       <div className='container flex items-center justify-center gap-5 sm:flex-col md:flex-row'>
         <div className='flex sm:items-center flex-col md:items-end flex-1 sm:text-center md:text-right'>
-          <Title color='amber-200'>
+          <Title color='amber-200' size='5xl'>
             About Us
             <TitleUnderline position='end' />
           </Title>
@@ -28,7 +28,7 @@ const About = () => {
           />
         </div>
         <div className='flex sm:items-center flex-col md:items-start flex-1 sm:text-center md:text-left'>
-          <Title color='amber-200'>
+          <Title color='amber-200' size='5xl'>
             Our History
             <TitleUnderline position='start' />
           </Title>
