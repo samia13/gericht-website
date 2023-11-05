@@ -7,4 +7,5 @@ export { default as Hero } from "./Hero.jsx";
 export { default as About } from "./About.jsx";
 export { default as Reservation } from "./Reservation.jsx";
 export { default as FoodGallery } from "./FoodGallery.jsx";
-export { default as Direction } from "./Direction.jsx";
+export { default as Awards } from "./Awards.jsx";
+export { default as ChefWord } from "./ChefWord.jsx";
