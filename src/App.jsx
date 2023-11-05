@@ -4,7 +4,10 @@ function App() {
   return (
     <>
       <Header />
-      <main></main>
+      <main>
+        <Hero />
+      </main>
+      <Footer />
     </>
   );
 }
