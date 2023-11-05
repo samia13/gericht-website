@@ -15,7 +15,15 @@
     background-color: transparent;
     border: 1px solid rgba(253, 230, 138, 0.15);
     padding: 15px;
-    color: rgba(253, 230, 138, 0.8);
+    color: #fde68acc;
     height: 48px;
+  }
+  .food-gallery .column:hover p {
+    opacity: 1;
+    transform: translateY(0);
+    height: auto;
+  }
+  .food-gallery .column:hover h2 {
+    transform: translateY(-10px);
   }
 }
