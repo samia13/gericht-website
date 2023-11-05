@@ -8,6 +8,7 @@ import {
   Awards,
   ChefWord,
   Restaurant,
+  Blog,
 } from "./components/index";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Awards />
         <ChefWord />
         <Restaurant />
+        <Blog />
       </main>
       <Footer />
     </>
