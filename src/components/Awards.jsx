@@ -12,7 +12,7 @@ const Awards = () => {
         <h2 className='text-white text-6xl mb-10 text-center'>
           Our LaurelsLaurels
         </h2>
-        <div className='flex items-center justify-center  sm:flex-col md:flex-col gap-5'>
+        <div className='flex items-center justify-center sm:flex-col lg:flex-row gap-5'>
           <div className='flex flex-1 gap-3 flex-col'>
             <div className='flex gap-6 items-start'>
               <div className='flex flex-col items-end text-right'>

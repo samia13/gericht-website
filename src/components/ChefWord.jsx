@@ -39,7 +39,12 @@ const ChefWord = () => {
             in arcu. Vulputate nulla lobortis mauris eget sit.
           </p>
           <h3 className='text-white font-bold text-2xl'>Kevin Luo</h3>
-          <p className='text-white opacity-60'> Chef & Founder</p>
+          <p className='text-white opacity-60 mb-7'> Chef & Founder</p>
+          <img
+            className='h-20'
+            src='images/signature.png'
+            alt='Chef signature'
+          />
         </div>
       </div>
     </div>

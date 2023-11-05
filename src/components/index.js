@@ -9,3 +9,4 @@ export { default as Reservation } from "./Reservation.jsx";
 export { default as FoodGallery } from "./FoodGallery.jsx";
 export { default as Awards } from "./Awards.jsx";
 export { default as ChefWord } from "./ChefWord.jsx";
+export { default as Restaurant } from "./Restaurant.jsx";
