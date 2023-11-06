@@ -9,7 +9,7 @@ const Awards = () => {
           Awards & Recognition
           <TitleUnderline position='center' />
         </Title>
-        <h2 className='text-white text-6xl mb-10 text-center'>
+        <h2 className='text-white text-4xl sm:text-6xl mb-10 text-center'>
           Our LaurelsLaurels
         </h2>
         <div className='flex items-center justify-center flex-col md:flex-row gap-5'>

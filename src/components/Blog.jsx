@@ -8,7 +8,7 @@ const Blog = () => {
           Our Blog
           <TitleUnderline position='center' />
         </Title>
-        <h2 className='text-white text-center text-6xl mb-10'>
+        <h2 className='text-white text-center text-4xl sm:text-6xl mb-10'>
           Gerícht Updates
         </h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 justify-center items-center gap-10'>

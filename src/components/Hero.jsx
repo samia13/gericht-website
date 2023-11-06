@@ -10,10 +10,10 @@ const Hero = () => {
             Chase The New Flavour
             <TitleUnderline position='start' />
           </Title>
-          <h1 className='text-amber-200 text-8xl mb-5'>
+          <h1 className='text-amber-200 text-4xl sm:text-8xl mb-5'>
             The Key To Fine Dining
           </h1>
-          <p className='text-white text-xl mb-5 leading-8'>
+          <p className='text-white text-sm sm:text-xl mb-5 leading-8'>
             Gericht: Where exquisite flavors meet elegant ambiance, creating
             unforgettable dining moments in the heart of the city.
           </p>

@@ -15,7 +15,9 @@ const Carousel = () => {
           Gallery
           <TitleUnderline position='center' />
         </Title>
-        <h2 className='text-white text-6xl mb-10'>Photo Gallery</h2>
+        <h2 className='text-white text-center text-4xl sm:text-6xl mb-10'>
+          Photo Gallery
+        </h2>
       </div>
       <Swiper
         spaceBetween={30}

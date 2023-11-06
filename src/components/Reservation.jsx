@@ -9,7 +9,9 @@ const Reservation = () => {
           Reservations
           <TitleUnderline position='center' />
         </Title>
-        <h2 className='text-white text-6xl mb-10'>Book A Table</h2>
+        <h2 className='text-white text-4xl sm:text-6xl mb-10 text-center'>
+          Book A Table
+        </h2>
         <form className='reservationForm flex flex-col md:flex-row justify-evenly gap-8 mb-10'>
           <input type='text' name='person-nb' placeholder='1 person' />
           <input type='text' name='date' placeholder='JJ/MM/AAAA' />
