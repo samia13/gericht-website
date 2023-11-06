@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 const Carousel = () => {
   return (
-    <div className='bg-[url("images/about-bg.jpg")] bg-no-repeat bg-cover px-7 py-20 '>
+    <div className='bg-[url(images/about-bg.jpg)] bg-no-repeat bg-cover px-7 py-20 '>
       <div className='container flex flex-col items-center justify-center gap-5 mb-10'>
         <Title color='amber-200'>
           Gallery
