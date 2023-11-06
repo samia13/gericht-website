@@ -6,11 +6,9 @@ const columns = [
 ];
 const FoodGallery = () => {
   const [activeBg, setActiveBg] = useState(columns[0].src);
-  const [ZoomMode, setZoomMode] = useState(false);
 
   function handleColumnHover(src) {
     setActiveBg(src);
-    setZoomMode(true);
   }
 
   const backgroundStyles = {
@@ -18,7 +16,7 @@ const FoodGallery = () => {
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    transition: "0.7s ease", // Add the transition effect here
+    transition: "0.7s ease",
   };
 
   return (
