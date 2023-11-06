@@ -14,3 +14,4 @@ export { default as Blog } from "./Blog.jsx";
 export { default as Carousel } from "./Carousel.jsx";
 export { default as Stats } from "./Stats.jsx";
 export { default as Contact } from "./Contact.jsx";
+export { default as Hamburger } from "./Hamburger.jsx";
