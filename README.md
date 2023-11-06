@@ -1,5 +1,5 @@
 ## Live demo 
-[sanity ecommerce app](https://sanity-ecommerce-paypal.vercel.app/)
+[Gericht website](https://gericht-website.vercel.app/)
 
 ## Gericht Landing page 🍕🥘
 This is a fully responsive landing page, the template design is from iqonic design

@@ -3,7 +3,12 @@ import { TitleUnderline, Title, Button } from "./index";
 
 const Contact = () => {
   return (
-    <div className='bg-[url("images/footer.jpg")] bg-no-repeat bg-cover px-7 py-20 pb-0'>
+    <div
+      className='bg-no-repeat bg-cover px-7 py-20 pb-0'
+      style={{
+        backgroundImage: "url(images/footer.jpg)",
+      }}
+    >
       <div className='container'>
         <div className='grid items-center justify-center gap-5 grid-cols-1 md:grid-cols-3 mb-20'>
           <div className='flex items-center flex-col text-center'>
