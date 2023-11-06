@@ -1,8 +1,11 @@
-# React + Vite
+## Live demo 
+[sanity ecommerce app](https://sanity-ecommerce-paypal.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Gericht Landing page 🍕🥘
+This is a fully responsive landing page, the template design is from iqonic design
+## Teck stack 🛠️
+The project is built with the following technologies
+`React.js`
+`Swiper carousel`
+`Feathure icons`
+`CSS 3`
