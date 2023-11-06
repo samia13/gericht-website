@@ -1,9 +1,11 @@
 import React from "react";
 
-const Spoon = ({ position = "start" }) => {
+const Spoon = ({ position, customStyle = {} }) => {
+  const linePosition = position || "center";
   return (
     <span
-      className={`absolute flex items-center sm:justify-center w-full md:justify-${position}`}
+      className={`absolute flex items-center w-full justify-${linePosition}`}
+      style={customStyle}
     >
       <span className='block w-10 h-1 rounded bg-transparent border border-amber-100'></span>
       <span className='block w-1 h-[1px] bg-amber-100 '></span>

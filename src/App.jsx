@@ -9,6 +9,9 @@ import {
   ChefWord,
   Restaurant,
   Blog,
+  Carousel,
+  Stats,
+  Contact,
 } from "./components/index";
 
 function App() {
@@ -24,8 +27,10 @@ function App() {
         <ChefWord />
         <Restaurant />
         <Blog />
+        <Carousel />
+        <Stats />
+        <Contact />
       </main>
-      <Footer />
     </>
   );
 }

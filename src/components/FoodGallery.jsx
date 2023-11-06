@@ -23,7 +23,7 @@ const FoodGallery = () => {
 
   return (
     <div
-      className='flex sm:flex-col md:flex-row min-h-[700px] overflow-hidden relative food-gallery'
+      className='flex flex-col md:flex-row min-h-[700px] overflow-hidden relative food-gallery'
       style={backgroundStyles}
     >
       <div className='absolute w-full h-full z-0 bg-black opacity-30 '></div>

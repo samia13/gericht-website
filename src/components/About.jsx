@@ -4,8 +4,8 @@ import { TitleUnderline, Title, Button } from "./index";
 const About = () => {
   return (
     <div className='bg-[url("images/about-bg.jpg")] bg-no-repeat bg-cover px-7 py-20'>
-      <div className='container flex items-center justify-center gap-5 sm:flex-col md:flex-row'>
-        <div className='flex sm:items-center flex-col md:items-end flex-1 sm:text-center md:text-right'>
+      <div className='container flex items-center justify-center gap-5 flex-col md:flex-row'>
+        <div className='flex items-center flex-col md:items-end flex-1 text-center md:text-right'>
           <Title color='amber-200' size='5xl'>
             About Us
             <TitleUnderline position='end' />
@@ -27,7 +27,7 @@ const About = () => {
             alt='Hero image'
           />
         </div>
-        <div className='flex sm:items-center flex-col md:items-start flex-1 sm:text-center md:text-left'>
+        <div className='flex items-center flex-col md:items-start flex-1 text-center md:text-left'>
           <Title color='amber-200' size='5xl'>
             Our History
             <TitleUnderline position='start' />

@@ -16,13 +16,22 @@
   button {
     display: inline-block;
   }
-  .reservationForm input {
+  .reservationForm {
+    width: 80%;
+  }
+  form input {
     outline: 0;
     background-color: transparent;
+    color: #fde68acc;
+    padding: 5px;
+    font-size: 1.2em;
+  }
+  .reservationForm input {
     border: 1px solid rgba(253, 230, 138, 0.15);
     padding: 15px;
-    color: #fde68acc;
-    height: 48px;
+    height: 60px;
+    flex: 1;
+    font-size: 1.2em;
   }
   .food-gallery .column:hover p {
     opacity: 1;
