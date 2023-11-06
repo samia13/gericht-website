@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <header className='p-7 bg-black text-white border-b border-b-zinc-700 '>
       <div className='container flex justify-between items-center'>
-        <h1 className='text-white text-3xl'>Gericht</h1>
-        <nav>
+        <h1 className='text-white text-4xl'>Gericht</h1>
+        <nav className='hidden md:block'>
           <ul className='flex gap-5 justify-center text-xl'>
             <li className='hover:opacity-60'>
               <a href='#'>Home</a>
