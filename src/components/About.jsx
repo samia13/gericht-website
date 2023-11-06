@@ -3,7 +3,12 @@ import { TitleUnderline, Title, Button } from "./index";
 
 const About = () => {
   return (
-    <div className='bg-[url(images/about-bg.jpg)] bg-no-repeat bg-cover px-7 py-20'>
+    <div
+      className='bg-no-repeat bg-cover px-7 py-20'
+      style={{
+        backgroundImage: "url(images/about-bg.jpg)",
+      }}
+    >
       <div className='container flex items-center justify-center gap-5 flex-col md:flex-row'>
         <div className='flex items-center flex-col md:items-end flex-1 text-center md:text-right'>
           <Title color='amber-200' size='5xl'>
