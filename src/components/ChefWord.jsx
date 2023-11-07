@@ -13,12 +13,19 @@ const ChefWord = () => {
     marginRight: "7px",
   };
   return (
-    <div
-      className='bg-no-repeat bg-cover px-7 py-20'
-      style={{
-        backgroundImage: "url(images/about-bg.jpg)",
-      }}
-    >
+    <div className='bg-no-repeat relative bg-cover px-7 py-20'>
+      <div
+        style={{
+          backgroundImage: "url(images/about-bg.jpg)",
+          objectFit: "cover",
+          width: "100%",
+          height: "100%",
+          position: "fixed",
+          top: "0",
+          left: "0",
+          zIndex: "-1",
+        }}
+      ></div>
       <div className='container flex items-center justify-center gap-20 flex-col md:flex-row'>
         <div className='flex-1 relative flex justify-center  hover:skew-y-3 duration-700'>
           <span className='absolute z-0 right-[2%] -top-5 w-[40%] h-3/5 bg-amber-200 '></span>
