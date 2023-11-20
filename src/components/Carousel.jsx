@@ -45,12 +45,9 @@ const Carousel = () => {
         {[...Array(12).keys()].map((_, i) => (
           <SwiperSlide
             key={i}
-            className='sm:'
-            style={{
-              height: i % 2 == 0 ? "360px" : "460px",
-              overflow: "hidden",
-              transform: i % 2 == 0 ? "translateY(50px)" : "translateY(0)",
-            }}
+            className={`overflow-hidden h-[460px] translate-y-0 ${
+              i % 2 == 0 ? "sm:h-[360px] sm:translate-y-[50px]" : "sm:h-[460px]"
+            }`}
           >
             <img
               key={i}
